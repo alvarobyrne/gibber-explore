@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gibber pines</title>
+    <script src="out/bundle.js" defer></script>
+    <style>
+      body {
+        background-color: #3a3a3a;
+        color: aliceblue;
+        font-family: monospace;
+        font-size: 11px;
+      }
+      div.instrument-category {
+        background-color: rgb(8, 72, 72);
+      }
+      .param {
+        border: 1px solid white;
+        display: inline-block;
+        margin: 1px;
+        padding: 1px;
+        cursor: pointer;
+        user-select: none;
+      }
+      .property {
+        display: none;
+      }
+      .contents {
+        position: relative;
+        width: 100%;
+        border: 1px solid whitesmoke;
+      }
+      .left-side {
+        width: 25%;
+        padding: 10px;
+      }
+      .right-side {
+        border: 1px solid whitesmoke;
+        width: 75vw;
+        padding: 10px;
+        position: fixed;
+        left: 25vw;
+        top: 0;
+      }
+      .right-side2 {
+        border: 1px solid whitesmoke;
+        width: 75vw;
+        padding: 10px;
+        position: fixed;
+        left: 25vw;
+        bottom: 0;
+      }
+      .column {
+        display: inline-block;
+        width: 120px;
+        border: 1px solid gray;
+        min-height: 12px;
+        max-height: 12px;
+        vertical-align: top;
+      }
+      .column.small {
+        width: 100px;
+      }
+      .column.tiny {
+        width: 20px;
+      }
+      .column.element {
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .column.property {
+        cursor: pointer;
+      }
+      .highlight {
+        background-color: #ffc;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    hola gibber, hola bergui
+  </body>
+</html>
